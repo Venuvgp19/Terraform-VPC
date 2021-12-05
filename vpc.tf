@@ -23,6 +23,7 @@ resource "aws_subnet" "Public-Subnet1" {
   }
 }
 
+#Adding private subnet 
 
 resource "aws_subnet" "Private-Subnet1" {
   vpc_id     = aws_vpc.main.id
